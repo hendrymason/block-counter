@@ -3,7 +3,7 @@ import csv
 prime_count = 0
 region_count = 0
 zone_count = 0
-file_path = '/Users/mason/Desktop/quai/quai-manager/logs/manager.log'
+file_path = 'YOUR LOG FILE PATH GOES HERE'
 
 with open(file_path,'r') as logs:
     for line in logs:
